@@ -1,7 +1,7 @@
 # Project REST-Rant
 REST-Rant is an app where users can review restaurants.
 
-# Table of Contents
+## Table of Contents
 | Method | Path | Purpose |
 |--------|------|---------|
 | GET | / | Home page |
@@ -15,3 +15,11 @@ REST-Rant is an app where users can review restaurants.
 | POST | /places/:id/rant | Create a rant (comment) about a particular place |
 | DELETE | /places/:id/rant/:rantId | Delete a rant (comment) about a particular place |
 | GET | * | 404 page (matches any route not defined above) |
+
+## Restaurants (Mock Data)
+| Restaurant Name | City | State | Cuisines | Picture |
+|-----------------|------|-------|----------|---------|
+| Taegukgi Korean BBQ | San Diego | CA | Korean BBQ |(img)|
+| Mister A's | San Diego | CA | Fine-Dining Steak & Seafood |(img)|
+| Fogo De Chao | San Diego | CA | Brazilian BBQ |(img)|
+| Prince Street Pizza | San Diego | CA | NY Style Pizza |(img)|
