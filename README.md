@@ -21,5 +21,5 @@ REST-Rant is an app where users can review restaurants.
 |-----------------|------|-------|----------|---------|
 | Taegukgi Korean BBQ | San Diego | CA | Korean BBQ |(img)|
 | Mister A's | San Diego | CA | Fine-Dining Steak & Seafood |(img)|
-| Fogo De Chao | San Diego | CA | Brazilian BBQ |(img)|
+| Fogo De Chao | San Diego | CA | Brazilian Steakhouse |(img)|
 | Prince Street Pizza | San Diego | CA | NY Style Pizza |(img)|
