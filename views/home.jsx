@@ -5,7 +5,7 @@ const Def = require('./default')
 function home() {
     return(
         <Def>
-            <main>
+            <main className="text-center">
                 <h1>REST-Rant</h1>
                 <div>
                     <img src="/images/2-rest-rant.jpg" alt="Restaurant Dining Area" height='400' width='550' />
