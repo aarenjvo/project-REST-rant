@@ -2,3 +2,17 @@ h1 {
     text-align: center;
     color: cornflowerblue;
 }
+
+#name,
+#pic,
+#city,
+#cuisines,
+#state {
+    width: 50%;
+    margin: .5em 1em;
+}
+
+#state {
+    background-color: transparent;
+    color: black;
+}
