@@ -1,14 +1,16 @@
 body {
     background-color: lightblue;
-    text-align: center;
+    /* text-align: center; */
 }
 
 main {
     margin: 0 20px;
     background-color: white;
+    /* text-align: center; */
 }
 
 h1 {
+    text-align: center;
     color: cornflowerblue;
 }
 

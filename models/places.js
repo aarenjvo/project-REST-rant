@@ -4,7 +4,7 @@ module.exports = [
         city: 'San Diego',
         state: 'CA',
         cuisines: 'Korean BBQ',
-        pic: 'https://scontent.fsan1-2.fna.fbcdn.net/v/t39.30808-6/258504312_2175379649268034_3977318335379489655_n.jpg?stp=dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6AFedRl8scAAX_mGK9M&_nc_ht=scontent.fsan1-2.fna&oh=00_AfCvgioromLC9fnHR9GFN51qnKnd1lbFkYGYoqsOzEF-kw&oe=65EBDDB7'
+        pic: 'https://scontent.fsan1-2.fna.fbcdn.net/v/t39.30808-6/258504312_2175379649268034_3977318335379489655_n.jpg?stp=dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=sKOp9gwoTlQAX8uwlpi&_nc_ht=scontent.fsan1-2.fna&oh=00_AfAeMRq90a7nnU2IRC9uHxExB2uQDFt9AhpHiNUXhBCddw&oe=65F1CC77'
     }, {
         name: 'Mister As',
         city: 'San Diego',
