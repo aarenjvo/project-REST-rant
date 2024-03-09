@@ -1,5 +1,14 @@
-h1 {
+body {
+    background-color: lightblue;
     text-align: center;
+}
+
+main {
+    margin: 0 20px;
+    background-color: white;
+}
+
+h1 {
     color: cornflowerblue;
 }
 
@@ -15,4 +24,32 @@ h1 {
 #state {
     background-color: transparent;
     color: black;
+}
+
+nav {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: pink;
+    text-decoration: none;
 }
