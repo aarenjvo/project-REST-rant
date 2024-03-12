@@ -5,6 +5,7 @@ body {
 
 main {
     margin: 0 20px;
+    padding: 25px 0;
     background-color: white;
     /* text-align: center; */
 }
@@ -22,21 +23,52 @@ p {
     color: darkslategray;
 }
 
-#name,
-#pic,
-#city,
-#cuisines,
-#state {
-    width: 50%;
-    margin: .5em 1em;
+
+/* #cuisines {
+    width: 50em;
+} */
+
+#hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), url("2-rest-rant.jpg"));
+    height: 100%;
+    width: 100%;
+}
+
+#pic {
+    margin-top: 4.5px;
 }
 
 #state {
+    width: 100%;
     background-color: transparent;
     color: black;
+    margin: 0;
+}
+
+#form {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#addBtn {
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    margin: 0 auto;
+    margin-top: 1.5em;
+}
+
+#editBtn {
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    margin: 0 auto;
+    margin-top: 1.5em;
 }
 
 nav {
+    margin: 0 20px;
     background-color: cornflowerblue;
     padding: 10px;
 }

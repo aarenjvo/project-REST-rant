@@ -9,7 +9,7 @@ function show({ place, id }) {
                     <div className="card">
                         <div className="row">
                             <div className="col-md-7 text-center">
-                                <img src={place.pic} alt={place.name} height='400vh' width='550vw' />
+                                <img src={place.pic} alt={place.name} height='350vh' width='430vw' />
                             </div>
                             <div className="col-md-4 text-center">
                                 <br />
