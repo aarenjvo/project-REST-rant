@@ -28,12 +28,6 @@ p {
     width: 50em;
 } */
 
-#hero {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), url("2-rest-rant.jpg"));
-    height: 100%;
-    width: 100%;
-}
-
 #pic {
     margin-top: 4.5px;
 }
@@ -65,6 +59,10 @@ p {
     width: 10em;
     margin: 0 auto;
     margin-top: 1.5em;
+}
+
+#learnMoreBtn {
+    width: 11em;
 }
 
 nav {

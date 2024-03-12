@@ -45,10 +45,34 @@ router.get('/:id/edit', (req, res) => {
     } else if (!places[id]) {
         res.render('error404')
     } else {
-    res.render('places/edit', { place: places[id] })
+    res.render('places/edit', { 
+        place: places[id],
+        id
+    })
     }
 })
 
+// PUT route
+router.put('/:id', (req, res) => {
+    let id = Number(req.params.id)
+    if (isNaN(id)) {
+        res.render('error404')
+    } else if (!places[id]) {
+        res.render('error404')
+    } else {
+        if (!req.body.pic) {
+            req.body.pic = 'https://images.unsplash.com/photo-1531928351158-2f736078e0a1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        }
+        if (!req.body.city) {
+            req.body.city = 'City of Peace'
+        }
+        if (!req.body.state) {
+            req.body.state = 'State of Mind'
+        }
+    }
+        places[ id ] = req.body
+        res.redirect(`/places/${ id }`)
+})
 
 // Delete route
 router.delete('/:id', (req, res) => {
