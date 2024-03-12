@@ -6,10 +6,11 @@ function Def(html) {
             <head>
                 <title>Title</title>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
                 <link rel="stylesheet" href="/style.css" />
             </head>
             <body>
-                <nav>
+                <nav className="rounded-top">
                     <ul>
                         <li>
                             <a href="/">Home</a>
