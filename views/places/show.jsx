@@ -10,6 +10,8 @@ function show({ place, id }) {
                         <div className="row">
                             <div className="col-md-7 text-center my-4">
                                 <img src={place.pic} alt={place.name} height='350vh' width='430vw' />
+                                <h4>Located in {place.city}, {place.state}</h4>
+                                <h4>serving {place.cuisines}</h4>
                             </div>
                             <div className="col-md-4 text-center">
                                 <br />
@@ -17,7 +19,12 @@ function show({ place, id }) {
                                 <h2>Rating</h2>
                                 <h4>Not Rated</h4>
                                 <h2>Description</h2>
-                                <h4>Located in {place.city}, {place.state} and serving {place.cuisines}</h4>
+                                <h4>
+                                    {place.showEstablished()}
+                                </h4>
+                                <h5>
+                                    Serving {place.cuisines}
+                                </h5>
 
                                 <div className="d-inline-flex p-2 bd-highlight">
                                     <a href={`/places/${id}/edit`} className="btn btn-warning mx-2 px-4">
