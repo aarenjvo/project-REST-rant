@@ -69,6 +69,38 @@ p {
     width: 12.9em;
 }
 
+#comments {
+    max-width: 10em;
+    max-height: 30em;
+    padding: 3em 0;
+}
+
+#commentForm {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#content {
+    height: 5em;
+}
+
+#commentBtn {
+    width: 10em;
+    margin: 0 auto;
+}
+
+#rantDivWrap {
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    margin: 0 auto;
+}
+
+#stars {
+    width: 15em;
+    margin: 0 auto;
+}
+
 nav {
     margin: 0 20px;
     background-color: cornflowerblue;
