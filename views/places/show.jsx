@@ -23,7 +23,7 @@ function show(data) {
         }
         rating = (
             <h3>
-                { stars } stars
+                {stars} stars
             </h3>
         )
     }
@@ -68,7 +68,7 @@ function show(data) {
                                 <br />
                                 <h1>{data.place.name}</h1>
                                 <h2>Rating</h2>
-                                    { rating }
+                                {rating}
                                 <h2>Description</h2>
                                 <h4>
                                     {data.place.showEstablished()}

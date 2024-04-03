@@ -3,15 +3,15 @@ const mongoose = require('mongoose')
 let commentSchema = new mongoose.Schema(
     {
         author: {
-            type: String, 
+            type: String,
             default: 'Anonymous'
         },
         rant: {
-            type: Boolean, 
+            type: Boolean,
             default: false
         },
         stars: {
-            type: Number, 
+            type: Number,
             required: true
         },
         content: {

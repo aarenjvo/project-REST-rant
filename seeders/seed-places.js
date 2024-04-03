@@ -36,11 +36,11 @@ db.Place.create([
         web: 'https://princestreetpizza.com/sandiego-2/'
     }
 ])
-.then(() => {
-    console.log('Success')
-    process.exit()
-})
-.catch(err => {
-    console.log('Failure!', err)
-    process.exit()
-})
+    .then(() => {
+        console.log('Success')
+        process.exit()
+    })
+    .catch(err => {
+        console.log('Failure!', err)
+        process.exit()
+    })
